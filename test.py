@@ -8,4 +8,4 @@ def test_add():
 
 if __name__ == "__main__":
     test_add()
-    print("✅ All tests passed.")
+    print(" All tests passed.")
