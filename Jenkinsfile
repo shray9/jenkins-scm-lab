@@ -9,7 +9,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo "Running test cases..."
-                sh 'python test.py'
+                bat 'python test.py'
             }
         }
     }
